@@ -25,5 +25,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)getMutiValue:(void(^)(int a, int b))block {
+    
+}
+
+- (void)getMutiSValue:(int *)value value2:(int *)value2 {
+    
+}
+
+
 
 @end
