@@ -26,7 +26,7 @@
 		198B0A651FF7936500EA1129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		198B0A671FF7936500EA1129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		198B0A681FF7936500EA1129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		19A9228C1FF7DA98007C8EDE /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Tuples.playground; path = ../../../../../Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		19D00C061FF884B60013B169 /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		198B0A731FF793D500EA1129 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				19A9228C1FF7DA98007C8EDE /* Tuples.playground */,
+				19D00C061FF884B60013B169 /* Tuples.playground */,
 			);
 			path = Code;
 			sourceTree = "<group>";
