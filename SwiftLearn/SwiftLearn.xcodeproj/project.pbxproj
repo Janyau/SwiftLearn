@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192CD65A1FF9F1020077B466 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192CD6591FF9F1020077B466 /* MyTableViewController.m */; };
 		198B0A5B1FF7936500EA1129 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 198B0A5A1FF7936500EA1129 /* AppDelegate.m */; };
 		198B0A5E1FF7936500EA1129 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198B0A5D1FF7936500EA1129 /* ViewController.m */; };
 		198B0A611FF7936500EA1129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198B0A5F1FF7936500EA1129 /* Main.storyboard */; };
@@ -16,6 +17,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		192CD6561FF9D40E0077B466 /* Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Class.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		192CD6571FF9DE230077B466 /* KVC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KVC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		192CD6581FF9F1020077B466 /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		192CD6591FF9F1020077B466 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		192CD65B1FFA2C580077B466 /* DiffStructAndClass.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DiffStructAndClass.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		192CD65C1FFA32F90077B466 /* AnyAnyObjectNSObject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyAnyObjectNSObject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		192CD65D1FFA5BFB0077B466 /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		192CD65E1FFA63090077B466 /* Delegate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Delegate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		192CD65F1FFA6F2D0077B466 /* ProtocolOption.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolOption.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		192CD6601FFA7DE00077B466 /* Generic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		198B0A561FF7936500EA1129 /* SwiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		198B0A591FF7936500EA1129 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		198B0A5A1FF7936500EA1129 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,6 +38,9 @@
 		198B0A671FF7936500EA1129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		198B0A681FF7936500EA1129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19D00C061FF884B60013B169 /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		19D00C071FF88BBB0013B169 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		19D00C081FF8D8E90013B169 /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		19D00C091FF8E5820013B169 /* Struct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Struct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,8 @@
 				198B0A5A1FF7936500EA1129 /* AppDelegate.m */,
 				198B0A5C1FF7936500EA1129 /* ViewController.h */,
 				198B0A5D1FF7936500EA1129 /* ViewController.m */,
+				192CD6581FF9F1020077B466 /* MyTableViewController.h */,
+				192CD6591FF9F1020077B466 /* MyTableViewController.m */,
 				198B0A5F1FF7936500EA1129 /* Main.storyboard */,
 				198B0A621FF7936500EA1129 /* Assets.xcassets */,
 				198B0A641FF7936500EA1129 /* LaunchScreen.storyboard */,
@@ -76,6 +92,17 @@
 		198B0A731FF793D500EA1129 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				192CD6601FFA7DE00077B466 /* Generic.playground */,
+				192CD65F1FFA6F2D0077B466 /* ProtocolOption.playground */,
+				192CD65E1FFA63090077B466 /* Delegate.playground */,
+				192CD65D1FFA5BFB0077B466 /* Protocol.playground */,
+				192CD65C1FFA32F90077B466 /* AnyAnyObjectNSObject.playground */,
+				192CD65B1FFA2C580077B466 /* DiffStructAndClass.playground */,
+				192CD6571FF9DE230077B466 /* KVC.playground */,
+				192CD6561FF9D40E0077B466 /* Class.playground */,
+				19D00C091FF8E5820013B169 /* Struct.playground */,
+				19D00C081FF8D8E90013B169 /* Enum.playground */,
+				19D00C071FF88BBB0013B169 /* Function.playground */,
 				19D00C061FF884B60013B169 /* Tuples.playground */,
 			);
 			path = Code;
@@ -155,6 +182,7 @@
 				198B0A5E1FF7936500EA1129 /* ViewController.m in Sources */,
 				198B0A691FF7936500EA1129 /* main.m in Sources */,
 				198B0A5B1FF7936500EA1129 /* AppDelegate.m in Sources */,
+				192CD65A1FF9F1020077B466 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

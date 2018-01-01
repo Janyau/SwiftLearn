@@ -12,14 +12,14 @@ let str = "hello"
 
 // #### 基本使用
 
-/// 1. 按索引取值
+// ##### 1. 按索引取值
 let tuple = ("liming", 28, 88)
 tuple.0
 tuple.1
 tuple.2
 
 
-/// 2. 按属性取值
+// ##### 2. 按属性取值
 let tupleA = (name:"liming", age:28, score:88)
 tupleA.name
 tupleA.age
@@ -33,7 +33,7 @@ tupleB.1
 tupleB.score
 
 
-/// 3.
+// ##### 3.
 let (name, age, score) = (name:"liming", age:28, score:88)
 name
 age
@@ -42,13 +42,13 @@ score
 
 // #### 应用场景
 
-/// 1. 方法传递多个参数
+// ##### 1. 方法传递多个参数
 func selecter(para : (String, Int)) {
     
 }
 
 
-/// 2. 方法返回多个参数
+// ##### 2. 方法返回多个参数
 func getSelecter() -> (name:String, age:Int, score:Double) {
     return ("liming", 2, 3.0)
 }
