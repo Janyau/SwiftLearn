@@ -44,3 +44,94 @@ c
 d
 
 
+// ##### 1.与结构体结合
+
+struct Point<T> {
+    var x: T
+    var y: T
+}
+let p = Point(x: 1, y: 3)
+let m = Point(x: 1.1, y: 3.3)
+
+
+// ##### 2.与类结合
+
+class Stack<T> {
+    var array: [Any] = []
+    
+    func pop() -> T? {
+        return array.removeLast() as? T
+    }
+    
+    func push(_ num: T) {
+        array.append(num)
+    }
+}
+
+var st = Stack<Any>()
+st.push(1)
+st.push(4.5)
+st.push("test")
+
+st.pop()
+st.pop()
+st.pop()
+
+
+// ##### 3.与协议结合
+
+protocol ProtocolWork {
+    associatedtype T
+    func run() -> T
+    func eat() -> T
+}
+
+class Person: ProtocolWork {
+    func run() -> Person {
+        print("people run")
+        return self
+    }
+    func eat() -> Person {
+        print("people eat")
+        return self
+    }
+}
+let people = Person()
+people.run().run().eat().eat()
+
+
+class Dog: ProtocolWork {
+    func run() -> Dog {
+        print("Dog run")
+        return self
+    }
+    func eat() -> Dog {
+        print("Dog eat")
+        return self
+    }
+}
+
+let dog = Dog()
+dog.run().run().eat().eat()
+
+
+// ##### 3.与 where 结合
+
+func test<T>(num: T) {
+    
+}
+test(num: people)
+test(num: dog)
+
+
+/// T 必须继承自 Perosn
+func testB<T>(num: T) where T: Person {
+    
+}
+testB(num: people)
+//testB(num: dog)
+
+
+
+
+

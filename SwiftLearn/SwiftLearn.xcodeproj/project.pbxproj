@@ -14,6 +14,8 @@
 		198B0A631FF7936500EA1129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198B0A621FF7936500EA1129 /* Assets.xcassets */; };
 		198B0A661FF7936500EA1129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198B0A641FF7936500EA1129 /* LaunchScreen.storyboard */; };
 		198B0A691FF7936500EA1129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 198B0A681FF7936500EA1129 /* main.m */; };
+		19BA49AF2001B20700CCD5F5 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA49AE2001B20700CCD5F5 /* Comment.swift */; };
+		19BA49B12001B8EF00CCD5F5 /* AccessPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA49B02001B8EF00CCD5F5 /* AccessPermission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,7 @@
 		192CD65E1FFA63090077B466 /* Delegate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Delegate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		192CD65F1FFA6F2D0077B466 /* ProtocolOption.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolOption.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		192CD6601FFA7DE00077B466 /* Generic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		19669EB5200120DD00999639 /* LasyLoad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LasyLoad.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		198B0A561FF7936500EA1129 /* SwiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		198B0A591FF7936500EA1129 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		198B0A5A1FF7936500EA1129 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +40,9 @@
 		198B0A651FF7936500EA1129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		198B0A671FF7936500EA1129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		198B0A681FF7936500EA1129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		199D1B3C2000D598003DC27C /* Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		19BA49AE2001B20700CCD5F5 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		19BA49B02001B8EF00CCD5F5 /* AccessPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessPermission.swift; sourceTree = "<group>"; };
 		19D00C061FF884B60013B169 /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		19D00C071FF88BBB0013B169 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		19D00C081FF8D8E90013B169 /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -92,6 +98,8 @@
 		198B0A731FF793D500EA1129 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				19669EB5200120DD00999639 /* LasyLoad.playground */,
+				199D1B3C2000D598003DC27C /* Closure.playground */,
 				192CD6601FFA7DE00077B466 /* Generic.playground */,
 				192CD65F1FFA6F2D0077B466 /* ProtocolOption.playground */,
 				192CD65E1FFA63090077B466 /* Delegate.playground */,
@@ -104,6 +112,8 @@
 				19D00C081FF8D8E90013B169 /* Enum.playground */,
 				19D00C071FF88BBB0013B169 /* Function.playground */,
 				19D00C061FF884B60013B169 /* Tuples.playground */,
+				19BA49AE2001B20700CCD5F5 /* Comment.swift */,
+				19BA49B02001B8EF00CCD5F5 /* AccessPermission.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -139,6 +149,7 @@
 				TargetAttributes = {
 					198B0A551FF7936500EA1129 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -179,9 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BA49AF2001B20700CCD5F5 /* Comment.swift in Sources */,
 				198B0A5E1FF7936500EA1129 /* ViewController.m in Sources */,
 				198B0A691FF7936500EA1129 /* main.m in Sources */,
 				198B0A5B1FF7936500EA1129 /* AppDelegate.m in Sources */,
+				19BA49B12001B8EF00CCD5F5 /* AccessPermission.swift in Sources */,
 				192CD65A1FF9F1020077B466 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,11 +329,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeboo.test.SwiftLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -329,11 +345,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeboo.test.SwiftLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
