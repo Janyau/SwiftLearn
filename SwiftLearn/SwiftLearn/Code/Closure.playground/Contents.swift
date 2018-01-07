@@ -5,7 +5,7 @@ import UIKit
 let str = "hello"
 
 /*
-闭包
+ 闭包
  闭包 == 特殊的函数
  */
 

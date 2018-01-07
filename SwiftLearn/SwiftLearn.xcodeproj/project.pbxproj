@@ -60,6 +60,8 @@
 		19D00C071FF88BBB0013B169 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		19D00C081FF8D8E90013B169 /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		19D00C091FF8E5820013B169 /* Struct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Struct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		19F93B122002062100772602 /* PlaygroundAdvanceUse.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlaygroundAdvanceUse.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		19F93B132002198300772602 /* ChainProgramming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ChainProgramming.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,8 @@
 		198B0A731FF793D500EA1129 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				19F93B132002198300772602 /* ChainProgramming.playground */,
+				19F93B122002062100772602 /* PlaygroundAdvanceUse.playground */,
 				19BA49C82001C5A600CCD5F5 /* ThrowException.playground */,
 				19669EB5200120DD00999639 /* LasyLoad.playground */,
 				199D1B3C2000D598003DC27C /* Closure.playground */,
