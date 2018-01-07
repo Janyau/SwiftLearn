@@ -21,12 +21,6 @@
 		19BA49BE2001BBA800CCD5F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BA49BC2001BBA800CCD5F5 /* Main.storyboard */; };
 		19BA49C02001BBA800CCD5F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BA49BF2001BBA800CCD5F5 /* Assets.xcassets */; };
 		19BA49C32001BBA900CCD5F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BA49C12001BBA900CCD5F5 /* LaunchScreen.storyboard */; };
-		19BA49EB2001FD4F00CCD5F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BA49EA2001FD4F00CCD5F5 /* AppDelegate.m */; };
-		19BA49EE2001FD4F00CCD5F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BA49ED2001FD4F00CCD5F5 /* ViewController.m */; };
-		19BA49F12001FD4F00CCD5F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BA49EF2001FD4F00CCD5F5 /* Main.storyboard */; };
-		19BA49F32001FD4F00CCD5F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BA49F22001FD4F00CCD5F5 /* Assets.xcassets */; };
-		19BA49F62001FD4F00CCD5F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BA49F42001FD4F00CCD5F5 /* LaunchScreen.storyboard */; };
-		19BA49F92001FD4F00CCD5F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BA49F82001FD4F00CCD5F5 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,16 +56,6 @@
 		19BA49C22001BBA900CCD5F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19BA49C42001BBA900CCD5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19BA49C82001C5A600CCD5F5 /* ThrowException.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThrowException.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		19BA49E72001FD4F00CCD5F5 /* OCSwiftCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCSwiftCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		19BA49E92001FD4F00CCD5F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		19BA49EA2001FD4F00CCD5F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		19BA49EC2001FD4F00CCD5F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		19BA49ED2001FD4F00CCD5F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		19BA49F02001FD4F00CCD5F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		19BA49F22001FD4F00CCD5F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		19BA49F52001FD4F00CCD5F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		19BA49F72001FD4F00CCD5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19BA49F82001FD4F00CCD5F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19D00C061FF884B60013B169 /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		19D00C071FF88BBB0013B169 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		19D00C081FF8D8E90013B169 /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -93,13 +77,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19BA49E42001FD4F00CCD5F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -108,7 +85,6 @@
 			children = (
 				198B0A581FF7936500EA1129 /* SwiftLearn */,
 				19BA49B72001BBA800CCD5F5 /* AccessPermission */,
-				19BA49E82001FD4F00CCD5F5 /* OCSwiftCall */,
 				198B0A571FF7936500EA1129 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,7 +94,6 @@
 			children = (
 				198B0A561FF7936500EA1129 /* SwiftLearn.app */,
 				19BA49B62001BBA800CCD5F5 /* AccessPermission.app */,
-				19BA49E72001FD4F00CCD5F5 /* OCSwiftCall.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,22 +154,6 @@
 			path = AccessPermission;
 			sourceTree = "<group>";
 		};
-		19BA49E82001FD4F00CCD5F5 /* OCSwiftCall */ = {
-			isa = PBXGroup;
-			children = (
-				19BA49E92001FD4F00CCD5F5 /* AppDelegate.h */,
-				19BA49EA2001FD4F00CCD5F5 /* AppDelegate.m */,
-				19BA49EC2001FD4F00CCD5F5 /* ViewController.h */,
-				19BA49ED2001FD4F00CCD5F5 /* ViewController.m */,
-				19BA49EF2001FD4F00CCD5F5 /* Main.storyboard */,
-				19BA49F22001FD4F00CCD5F5 /* Assets.xcassets */,
-				19BA49F42001FD4F00CCD5F5 /* LaunchScreen.storyboard */,
-				19BA49F72001FD4F00CCD5F5 /* Info.plist */,
-				19BA49F82001FD4F00CCD5F5 /* main.m */,
-			);
-			path = OCSwiftCall;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,23 +191,6 @@
 			productReference = 19BA49B62001BBA800CCD5F5 /* AccessPermission.app */;
 			productType = "com.apple.product-type.application";
 		};
-		19BA49E62001FD4F00CCD5F5 /* OCSwiftCall */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 19BA49FA2001FD4F00CCD5F5 /* Build configuration list for PBXNativeTarget "OCSwiftCall" */;
-			buildPhases = (
-				19BA49E32001FD4F00CCD5F5 /* Sources */,
-				19BA49E42001FD4F00CCD5F5 /* Frameworks */,
-				19BA49E52001FD4F00CCD5F5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OCSwiftCall;
-			productName = OCSwiftCall;
-			productReference = 19BA49E72001FD4F00CCD5F5 /* OCSwiftCall.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -265,10 +207,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					19BA49B52001BBA800CCD5F5 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-					19BA49E62001FD4F00CCD5F5 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -289,7 +227,6 @@
 			targets = (
 				198B0A551FF7936500EA1129 /* SwiftLearn */,
 				19BA49B52001BBA800CCD5F5 /* AccessPermission */,
-				19BA49E62001FD4F00CCD5F5 /* OCSwiftCall */,
 			);
 		};
 /* End PBXProject section */
@@ -315,16 +252,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19BA49E52001FD4F00CCD5F5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19BA49F62001FD4F00CCD5F5 /* LaunchScreen.storyboard in Resources */,
-				19BA49F32001FD4F00CCD5F5 /* Assets.xcassets in Resources */,
-				19BA49F12001FD4F00CCD5F5 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -347,16 +274,6 @@
 			files = (
 				19BA49BB2001BBA800CCD5F5 /* ViewController.swift in Sources */,
 				19BA49B92001BBA800CCD5F5 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19BA49E32001FD4F00CCD5F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19BA49EE2001FD4F00CCD5F5 /* ViewController.m in Sources */,
-				19BA49F92001FD4F00CCD5F5 /* main.m in Sources */,
-				19BA49EB2001FD4F00CCD5F5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,22 +308,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				19BA49C22001BBA900CCD5F5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		19BA49EF2001FD4F00CCD5F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19BA49F02001FD4F00CCD5F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		19BA49F42001FD4F00CCD5F5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19BA49F52001FD4F00CCD5F5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -580,32 +481,6 @@
 			};
 			name = Release;
 		};
-		19BA49FB2001FD4F00CCD5F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OCSwiftCall/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeboo.test.OCSwiftCall;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		19BA49FC2001FD4F00CCD5F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OCSwiftCall/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeboo.test.OCSwiftCall;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -632,15 +507,6 @@
 			buildConfigurations = (
 				19BA49C62001BBA900CCD5F5 /* Debug */,
 				19BA49C72001BBA900CCD5F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		19BA49FA2001FD4F00CCD5F5 /* Build configuration list for PBXNativeTarget "OCSwiftCall" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				19BA49FB2001FD4F00CCD5F5 /* Debug */,
-				19BA49FC2001FD4F00CCD5F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
